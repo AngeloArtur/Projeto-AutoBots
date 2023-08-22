@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Prinses';
+    src: url('../fonts/PrinsesstartaBoldDEMO.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Prinses';
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    padding: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#box {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+#box > p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#box > a {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: end;
+}
+
+section {
+    border: 1px solid black;
+    width: 300px;
+    height: 220px;
+
+    margin: auto;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form > label {
+    font-size: 0.85em;
+}
+
+#form > p {
+    margin-bottom: 8px;
+}
+
+.customerSize {
+    width: 250px; 
+}
+
+a {
+    text-align: center;
+    align-items: center;
+}
