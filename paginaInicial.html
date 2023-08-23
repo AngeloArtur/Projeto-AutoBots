@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="css/styleSlider.css">
+</head>
+<body>
+    <header>
+        <h1>UFC AutoBots</h1>
+        <ul>
+            <li><a href="alterarSenha.html">Alterar Senha</a></li>
+            <li><a href="login.html">Encerrar Sessão</a></li>
+        </ul>
+    </header>
+    <main>
+        <h3 id="user_">Bem-vindo usuário </h3>
+        <h4>Selcione um Bot</h4>
+        
+        <section class="sliderContainer">
+            <button id="btn-preview"><img src="images/arrow-left.svg" alt="" class="preview"></button>
+           <section class="imagesContainer">
+                <img src="images/quadrado-X.jpg" alt="" class="slider on">
+                <img src="images/quadrado-X2.jpg" alt="" class="slider">
+                <img src="images/quadrado-X3.png" alt="" class="slider">
+           </section>
+           <button id="btn-next"><img src="images/arrow-right.svg" alt="" class="next"></button>
+        </section>
+    </main>
+    <script src="js/slides.js"></script>
+</body>
+</html>
