@@ -89,6 +89,34 @@ section.container {
     margin-bottom: 8px;
 }
 
+#formExe {
+    padding: 15px;
+
+}
+
+#formExe fieldset {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+fieldset {
+    padding: 10px;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.buttons > button {
+    margin: 5px;
+}
+
 .customerSize {
     width: 250px; 
 }
@@ -96,4 +124,48 @@ section.container {
 a {
     text-align: center;
     align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    header h1 {
+        font-size: 2.0em
+    }
+
+    li {
+        font-size: 1.0em;
+    }
+
+    main > h3 {
+        font-size: 1.4em;
+    }
+
+    main > h4 {
+        font-size: 1.1em;
+    }
+
+    .imagesContainer {
+        width: 10px;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    #formExe {
+        margin: 10px;
+    }
+
+    #formExe fieldset {
+        display: block;
+        padding: 20px;
+        width: 700px;
+    }
+
+    fieldset #userCR, fieldset #senhaCR {
+        width: 200px;
+    }
+
+    fieldset #anoCR, fieldset #orgaoCR {
+        width: 100px;
+    }
 }

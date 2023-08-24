@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>UFC AutoBots</h1>
+        <ul>
+            <li><a href="alterarSenha.html">Alterar Senha</a></li>
+            <li><a href="login.html">Encerrar Sessão</a></li>
+        </ul>
+    </header>
+    <main>
+        <h3 id="user_">Executar um Bot </h3>
+        <h4>Informe os dados</h4>
+
+        <form action="" method="GET" id="formExe">
+            <fieldset>
+                <legend>Credenciais de acesso</legend>
+                <label for="userCR">Usuário:</label>
+                <input type="text" id="userCR" class="customerSize">
+                <label for="senhaCR">Senha:</label>
+                <input type="password" id="senhaCR" class="customerSize">
+            </fieldset>
+
+            <fieldset>
+                <legend>Planejamento</legend>
+                <label for="anoCR">Ano:</label>
+                <input type="number" id="anoCR" class="customerSize">
+                <label for="orgaoCR">Orgão:</label>
+                <input type="text" id="orgaoCR" class="customerSize">
+            </fieldset>
+
+            <div class="buttons">
+                <button>Voltar</button>
+                <button>Próximo</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
