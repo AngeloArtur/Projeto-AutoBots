@@ -133,9 +133,14 @@ fieldset {
     width: 250px; 
 }
 
-a {
+#dropFile {
+    width: 320px;
+    border: 1.5px dashed black;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
     text-align: center;
-    align-items: center;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 768px) {
