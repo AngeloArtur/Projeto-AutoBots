@@ -142,7 +142,31 @@ fieldset {
     text-align: center;
     border-radius: 5px;
 }
+table {
+    margin: auto;
+    margin-top: 30px;
+    
+    border-collapse: collapse;
+    width: 90%;
+}
 
+thead {
+    background-color: #ccc;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 2px;
+}
+
+tr:nth-child(2n) {
+    background-color: #eee;
+}
+
+#exeBtn {
+    margin-top: 70px;
+}
 @media screen and (min-width: 768px) {
     header h1 {
         font-size: 2.0em
@@ -184,5 +208,10 @@ fieldset {
 
     fieldset #anoCR, fieldset #orgaoCR {
         width: 100px;
+    }
+
+    #dropFile {
+        width: 740px;
+        border: 1.5px dashed black;
     }
 }

@@ -19,8 +19,24 @@
         <h4>Selecione as planilhas</h4>
         <section id="dropFile">
             Arraste e Solte os arquivos aqui
-            <input type="file">
+            <input type="file" id="inputFile">
         </section>
+
+        <table id="nameFile">
+            <thead>
+                <tr>
+                    <th>Nome do Arquivo</th>
+                    <th>Tamanho (Bytes)</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div class="buttons" id="exeBtn">
+            <button class="voltar">Voltar</button>
+            <button class="proximo">Executar</button>
+        </div>
     </main>
     <script src="js/drop.js"></script>
 </body>
