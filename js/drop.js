@@ -1,33 +1,3 @@
-let dropFile = document.getElementById('dropFile');
-let fileTable = document.querySelector('#nameFile tbody');
-let inputFile = document.getElementById('inputFile');
-
-dropFile.addEventListener('dragover', (event) => {
-    event.preventDefault();
-    dropFile.style.border = '1.5px dashed #ccc';
-});
-
-dropFile.addEventListener('dragleave', (event) => {
-    event.preventDefault();
-    dropFile.style.border = '1.5px dashed #000';
-});
-
-dropFile.addEventListener('drop', (event) => {
-    event.preventDefault();
-
-    let files = event.dataTransfer.files;
-    for(const file of files) {
-        addFileToTable(file)
-    }
-});
-
-inputFile.addEventListener('change', (event) => {
-    let fileSelect = event.target.files;
-    for(const file of fileSelect) {
-        addFileToTable(file);
-    }
-});
-
 function addFileToTable(file) {
     let row = document.createElement('tr');
 
@@ -69,3 +39,33 @@ function formatFileSize(bytes) {
 
     return `${valueBytes} ${sizes[size]}` 
 }
+
+let dropFile = document.getElementById('dropFile');
+let fileTable = document.querySelector('#nameFile tbody');
+let inputFile = document.getElementById('inputFile');
+
+dropFile.addEventListener('dragover', (event) => {
+    event.preventDefault();
+    dropFile.style.border = '1.5px dashed #ccc';
+});
+
+dropFile.addEventListener('dragleave', (event) => {
+    event.preventDefault();
+    dropFile.style.border = '1.5px dashed #000';
+});
+
+dropFile.addEventListener('drop', (event) => {
+    event.preventDefault();
+
+    let files = event.dataTransfer.files;
+    for(const file of files) {
+        addFileToTable(file)
+    }
+});
+
+inputFile.addEventListener('change', (event) => {
+    let fileSelect = event.target.files;
+    for(const file of fileSelect) {
+        addFileToTable(file);
+    }
+});
