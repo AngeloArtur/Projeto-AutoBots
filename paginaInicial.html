@@ -6,6 +6,7 @@
     <title>Página Inicial</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleSlider.css">
+    <script src="js/autenticado.js"></script>
 </head>
 <body>
     <header>
@@ -22,14 +23,14 @@
         <section class="sliderContainer">
             <button id="btn-preview"><img src="images/arrow-left.svg" alt="" class="preview"></button>
            <section class="imagesContainer">
-                <img src="images/quadrado-X.jpg" alt="" class="slider on">
-                <img src="images/quadrado-X2.jpg" alt="" class="slider">
-                <img src="images/quadrado-X3.png" alt="" class="slider">
+                <a href="tipoBot.html"><img src="images/quadrado-X.jpg" alt="" class="slider on"></a>
+                <a href="tipoBot.html"><img src="images/quadrado-X2.jpg" alt="" class="slider"></a>
+                <a href="tipoBot.html"><img src="images/quadrado-X3.png" alt="" class="slider"></a>
            </section>
            <button id="btn-next"><img src="images/arrow-right.svg" alt="" class="next"></button>
         </section>
     </main>
     <script src="js/slides.js"></script>
-    <script src="js/script.js"></script>
+    <script>autenticado();</script>
 </body>
 </html>

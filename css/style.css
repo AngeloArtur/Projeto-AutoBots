@@ -167,6 +167,13 @@ tr:nth-child(2n) {
 #exeBtn {
     margin-top: 70px;
 }
+
+.imagesContainer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width: 768px) {
     header h1 {
         font-size: 2.0em
@@ -186,6 +193,10 @@ tr:nth-child(2n) {
 
     .imagesContainer {
         width: 10px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .slider {
