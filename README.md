@@ -16,7 +16,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-É um sistema para gerenciamento de robôs
+É um sistema para gerenciamento de robôs. 
+- Os usuários cadastrados são : 'angeloartur, joao1, maria1, marcos1, joana1'
+- Senha : senha123
+
 
 - [Acesse o projeto finalizado, online](https://angeloartur.github.io/Projeto-AutoBots/login.html)
 
