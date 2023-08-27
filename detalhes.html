@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>UFC AutoBots</h1>
+        <ul>
+            <li><a href="alterarSenha.html">Alterar Senha</a></li>
+            <li><a href="login.html">Encerrar Sessão</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="breadcrumb">
+            <ol>
+                <li><a href="paginaInicial.html">Início</a></li>
+                <li><a href="tipoBot.html">Bot</a></li>
+                <li><a href="detalhes.html">Detalhes</a></li>
+            </ol>
+        </section>
+        <h3 id="user_">Executar um Bot </h3>
+        <h4>Selecione as planilhas</h4>
+
+        <fieldset id="boxStatus">
+            <label for="dataHora">Data/Hora</label>
+            <input type="text" id="dataHora" placeholder="2023-08-01 08:00:00">
+            <label for="task">Task</label>
+            <input type="text" id="task" placeholder="070d67c8-4448-4714-9e89-f934bbf">
+            <label for="status">Status</label>
+            <input type="text" id="status"  placeholder="Sucesso">
+        </fieldset>
+
+        <h3>Detalhes da execução</h3>
+        
+        <table>
+            <thead>
+                <tr>
+                    <td>Data/Hora</td>
+                    <td>Mensagem</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div class="buttons">
+            <button class="voltar"><a href="tipoBot.html">Voltar</a></button>
+        </div>
+    </main>
+</body>
+</html>
