@@ -9,3 +9,11 @@ function autenticado() {
         location.href = 'login.html';
     }
 }
+
+function autenticado1() {
+    var authenticated = localStorage.getItem('authenticated');
+
+    if (!authenticated) {
+        location.href = 'login.html';
+    }
+}
